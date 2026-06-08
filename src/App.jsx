@@ -30,7 +30,7 @@ function App() {
       <input
         value={city}
         onChange={(e) => setCity(e.target.value)}
-        placeholder="Enter city name"
+               placeholder="Enter city name"
       />
       <button onClick={fetchWeather}>Search</button>
 
@@ -48,4 +48,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
